@@ -1,0 +1,106 @@
+#gallery {
+    .info {
+        margin-top: 80px;
+
+        h3 {
+            font-size: 40px;
+            color: #ff6000ff;
+        }
+    }
+
+    .gallery {
+        .gallery-about {
+            width: 1110px;
+            height: 1108px;
+            margin: 0 auto;
+            position: relative;
+            list-style-type: none;
+            padding: 0;
+        }
+    }
+
+    .p-absolute {
+        position: absolute;
+        &:hover{
+            .plus{
+                opacity: .75;
+            }
+        }
+    }
+
+    .gallery {
+        .gallery-about {
+            .picture-1 {
+                background-image: url(https://megaone.acrothemes.com/cafe/images/work-1.jpg);
+                width: 277px;
+                height: 554px;
+            }
+
+            .picture-2 {
+                background-image: url(https://megaone.acrothemes.com/cafe/images/work-2.jpg);
+                width: 277px;
+                height: 277px;
+            }
+
+            .picture-3 {
+                background-image: url(https://megaone.acrothemes.com/cafe/images/work-4.jpg);
+                width: 554px;
+                height: 554px;
+            }
+
+            .picture-4 {
+                background-image: url(https://megaone.acrothemes.com/cafe/images/work-3.jpg);
+                width: 277px;
+                height: 277px;
+            }
+
+            .picture-5 {
+                background-image: url(https://megaone.acrothemes.com/cafe/images/work-5.jpg);
+                width: 554px;
+                height: 554px;
+            }
+
+            .picture-6 {
+                background-image: url(https://megaone.acrothemes.com/cafe/images/work-6.jpg);
+                width: 554px;
+                height: 277px;
+            }
+
+            .picture-7 {
+                background-image: url(https://megaone.acrothemes.com/cafe/images/work-7.jpg);
+                width: 277px;
+                height: 277px;
+            }
+
+            .picture-8 {
+                background-image: url(https://megaone.acrothemes.com/cafe/images/work-8.jpg);
+                width: 277px;
+                height: 277px;
+            }
+        }
+    }
+
+    .gallery {
+        cursor: pointer; 
+        .plus {
+            position: absolute;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: .7s;
+            background-color: dimgrey;
+            svg {
+                color: white;
+            }
+
+            h5 {
+                font-size: 25px;
+            }
+        }
+    }
+}
