@@ -1,0 +1,80 @@
+#menu {
+    .text-center {
+        margin-top: 150px;
+
+        h2 {
+            color: $orange;
+            font-size: 48px;
+        }
+    }
+
+    .food {
+        .col-3 {
+            &:hover {
+                .content {
+                    color: white;
+                    transition: all 0.5s;
+                    transition-timing-function: ease;
+                    background-color: $orange;
+                }
+            }
+
+            .item {
+                width: 293px;
+
+                .image {
+                    height: 293px;
+                }
+
+                .content {
+                    width: 293px;
+
+                    h4 {
+                        padding: 15px;
+                        font-size: 18px;
+                    }
+
+                    p {
+                        margin-bottom: 15px;
+                    }
+
+                    svg {
+                        cursor: pointer;
+                        margin: 3px;
+                        border-radius: 50%;
+                    }
+
+                    .fb {
+                        height: 24px;
+
+                        &:hover {
+                            background-color: #4567afff;
+                            color: #fff;
+                            transition: .5s;
+                        }
+                    }
+
+                    .twit {
+                        height: 24px;
+
+                        &:hover {
+                            background-color: #007bff;
+                            color: #fff;
+                            transition: .5s;
+                        }
+                    }
+
+                    .insta {
+                        height: 24px;
+
+                        &:hover {
+                            background-color: #c94f77ff;
+                            color: #fff;
+                            transition: .5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

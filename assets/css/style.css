@@ -44,6 +44,26 @@ header .btn:hover {
   color: white;
   transition-duration: 0.5s;
 }
+header .facebook {
+  position: absolute;
+  right: 0;
+  top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .facebook svg {
+  cursor: pointer;
+  margin: 3px;
+  background-color: white;
+  border-radius: 50%;
+}
+header .facebook svg:hover {
+  background-color: black;
+  transition: 0.6s;
+  color: white;
+}
 
 nav {
   padding-top: 50px;
@@ -265,4 +285,63 @@ nav {
 #customer .review .container span {
   cursor: pointer;
   font-size: 100px;
+}
+
+#menu .text-center {
+  margin-top: 150px;
+}
+#menu .text-center h2 {
+  color: #ff6000;
+  font-size: 48px;
+}
+#menu .food .col-3:hover .content {
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease;
+  background-color: #ff6000;
+}
+#menu .food .col-3 .item {
+  width: 293px;
+}
+#menu .food .col-3 .item .image {
+  height: 293px;
+}
+#menu .food .col-3 .item .content {
+  width: 293px;
+}
+#menu .food .col-3 .item .content h4 {
+  padding: 15px;
+  font-size: 18px;
+}
+#menu .food .col-3 .item .content p {
+  margin-bottom: 15px;
+}
+#menu .food .col-3 .item .content svg {
+  cursor: pointer;
+  margin: 3px;
+  border-radius: 50%;
+}
+#menu .food .col-3 .item .content .fb {
+  height: 24px;
+}
+#menu .food .col-3 .item .content .fb:hover {
+  background-color: #4567af;
+  color: #fff;
+  transition: 0.5s;
+}
+#menu .food .col-3 .item .content .twit {
+  height: 24px;
+}
+#menu .food .col-3 .item .content .twit:hover {
+  background-color: #007bff;
+  color: #fff;
+  transition: 0.5s;
+}
+#menu .food .col-3 .item .content .insta {
+  height: 24px;
+}
+#menu .food .col-3 .item .content .insta:hover {
+  background-color: #c94f77;
+  color: #fff;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
